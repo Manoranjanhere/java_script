@@ -14,3 +14,35 @@ let a =33
 let s=String(a);
 console.log(s);
 console.log(typeof s);
+//operations
+console.log("1"+2+3);//123
+console.log(1+2+"3");//33
+//conversion from left to right;
+console.log(+true);
+console.log(+"");
+console.log(null>0);
+console.log(null==0);
+console.log(null>=0);
+console.log("2"==2);
+console.log("2"===2);
+const id=Symbol('123')
+const ide=Symbol('123')
+console.log(id);
+console.log(ide);
+console.log(id==ide)
+let big=34728750237508708n
+console.log(typeof big);
+//Return type of variables in JavaScript
+// 1) Primitive Datatypes
+//        Number => number
+//        String  => string
+//        Boolean  => boolean
+//        null  => object
+//        undefined  =>  undefined
+//        Symbol  =>  symbol
+//        BigInt  =>  bigint
+
+// 2) Non-primitive Datatypes
+//        Arrays  =>  object
+//        Function  =>  function
+//        Object  =>  object
