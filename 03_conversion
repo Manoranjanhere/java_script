@@ -1,0 +1,16 @@
+let score="33abc";
+console.log(typeof(score));
+console.log(typeof score);
+let con=Number(score);
+console.log(typeof(con));
+console.log(con);
+let hero=1;
+let Bhero=Boolean(hero);
+console.log(Bhero)
+console.log(typeof Bhero);
+//"mano"=>true;
+//""=>false;
+let a =33
+let s=String(a);
+console.log(s);
+console.log(typeof s);
