@@ -46,3 +46,14 @@ console.log(typeof big);
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+//stack(primitive) get copy
+//heap(non primitive)get reference
+let user =
+{
+email:"mano@lpu",
+em:"jlf@ll"
+}
+let user1=user;
+user1.email="manoooooo";
+console.log(user.email)
+console.log(user1.email)
